@@ -4,7 +4,8 @@ import './App.css';
 
 const fontAwesomeStyles = {
   color: '#24ce99',
-  fontSize: '5em'
+  fontSize: '5em',
+  fontWeight: 'bold'
 };
 
 class App extends Component {
@@ -27,7 +28,7 @@ class App extends Component {
                 <i className="far fa-envelope-open" style={fontAwesomeStyles}></i>
                 <div className="mt-5">
                   <h2>Email us</h2>
-                  <p><a href="mailto:info@tryzipper.com">info@tryzipper.com</a></p>
+                  <p><a href="mailto:info@tryzipper.com" style={{color:'#24ce99'}}>info@tryzipper.com</a></p>
                 </div>
               </div>
              
@@ -35,7 +36,7 @@ class App extends Component {
                 <i className="far fa-comments" style={fontAwesomeStyles}></i>
                 <div className="mt-5">
                   <h2>Chat with us</h2>
-                  <p><a href="https://drift.me/zipper">Live chat</a></p>
+                  <p><a href="https://drift.me/zipper" style={{color:'#24ce99'}}>Live chat</a></p>
                 </div>
               </div>
             </div>
